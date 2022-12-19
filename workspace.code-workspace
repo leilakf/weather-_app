@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\icons"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "project-weather-app-main"
+	}
+}

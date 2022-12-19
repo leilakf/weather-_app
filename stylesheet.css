@@ -1,0 +1,216 @@
+body {
+    font-family: "Josefin Sans", sans-serif;
+ /* background-image:url("icons/storm-3.gif"); */
+background-image:url(icons/storm-3.gif) ;
+background-repeat: no-repeat;
+object-fit: cover;
+background-size:cover;
+}
+
+
+.weather-app {
+    border: 2px solid lightslategray;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 36px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 5px 5px 11px 3px rgb(126, 208, 235);
+    margin-bottom: 10px;
+    background-color: #b9e3ff;
+
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+.input-search {
+    position: relative;
+    width: 300px;
+
+}
+
+.input-search button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* outline: 0;
+    border: none;
+    background: transparent; */
+}
+
+.input-search button img {
+    width: 18px;
+    height: 18px;
+}
+
+.city {
+    color: lightslategray;
+    padding-top: 10px;
+    padding-left: 10px;
+
+
+
+
+}
+
+.city button {
+    font-size: 12px;
+
+
+
+}
+
+#mastercity {
+    font-weight: bold;
+    color: #4a4c53;
+    
+}
+
+.col-sm-4 h2 {
+    font-weight: bold;
+    color: #5a6275;
+
+}
+
+.col-sm-3 h2 {
+    font-weight: bold;
+    color: #5a6275;
+}
+
+.temperature {
+    font-size: 40px;
+    color: #545558;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+
+}
+
+.Day-first {
+    font-size: 16px;
+    color: #808aa0;
+    padding: 0px;
+    font-weight: bold;
+}
+
+.see {
+    font-size: 15px;
+    color: #808aa0;
+    padding: 0px;
+    font-weight: bold;
+
+}
+
+#day-one {
+    padding-left: 0px;
+
+
+}
+
+li {
+    list-style: none;
+
+}
+
+.pic-one {
+    width: 160px;
+    height: 130px;
+
+}
+
+.wrapper {
+    padding-bottom: 25px;
+
+}
+
+.divider {
+    position: relative;
+    margin-top: 10px;
+    height: 1px;
+}
+
+.div-transparent:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, rgb(48, 49, 51), transparent);
+}
+
+.div-arrow-down {
+    background-color: rgb(194, 165, 0);
+}
+
+.div-arrow-down:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -7px;
+    left: calc(50% - 7px);
+    width: 14px;
+    height: 14px;
+    transform: rotate(45deg);
+    background-color: white;
+    border-bottom: 1px solid rgb(48, 49, 51);
+    border-right: 1px solid rgb(48, 49, 51);
+}
+
+.weather-forcast {
+    margin-top: 0px;
+    text-align: center;
+
+}
+
+.weather-forecast-date {
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    opacity: 0.6;
+    
+
+}
+.weather-forecast-temperatures-min {
+    opacity: 0.6;
+
+}
+
+.weather-forecast-temperatures {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#degree-1 {
+    padding-top: 0;
+}
+
+#celsius-link {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#fahrenheit-link {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.weather-temperature .active {
+    color: blueviolet;
+    cursor: default;
+
+}
+
+.weather-temperature .active:hover {
+    text-decoration: none;
+
+}
+
+
+.leila {
+    padding: 0px 350px;
+font-weight: bold;
+}
